@@ -8,12 +8,7 @@
 
     <sitemap>
         <loc>http://yoursite-url/page-sitemap.xml</loc>
-        <lastmod>2018-11-05T14:53:44.247Z</lastmod>
-    </sitemap>
-
-    <sitemap>
-        <loc>http://yoursite-url/tag-sitemap.xml</loc>
-        
+        <lastmod>2018-11-08T15:04:34.321Z</lastmod>
     </sitemap>
 
 </sitemapindex>
