@@ -1,33 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type="text/xsl" href="sitemap.xsl"?>
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-    <url>
-        <loc>http://yoursite-url</loc>
-        <changefreq>daily</changefreq>
-        <priority>1</priority>
-    </url>
 
     <url>
-        <loc>http://yoursite-url/2018/11/06/first_blog/</loc>
-        <lastmod>2018-11-24T16:01:41.865Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.6</priority>
-
-    </url>
-
-    <url>
-        <loc>http://yoursite-url/2018/11/08/edm_song_name_suffix/</loc>
+        <loc>http://yoursite-url/tags/%E9%9F%B3%E4%B9%90/</loc>
         <lastmod>2018-11-24T15:56:06.045Z</lastmod>
         <changefreq>weekly</changefreq>
-        <priority>0.6</priority>
-
+        <priority>0.2</priority>
     </url>
 
     <url>
-        <loc>http://yoursite-url/2018/11/12/First/</loc>
-        <lastmod>2018-11-18T14:30:10.055Z</lastmod>
+        <loc>http://yoursite-url/tags/%E7%94%B5%E5%AD%90%E4%B9%90/</loc>
+        <lastmod>2018-11-24T15:56:06.045Z</lastmod>
         <changefreq>weekly</changefreq>
-        <priority>0.6</priority>
-
+        <priority>0.2</priority>
     </url>
 
 </urlset>

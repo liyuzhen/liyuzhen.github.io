@@ -9,9 +9,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="">
     <meta name="keyword" content="">
-    <link rel="shortcut icon" href="/img/ironman-draw.png">
-    <!-- Place this tag in your head or just before your close body tag. -->
-    <script async defer src="https://buttons.github.io/buttons.js"></script>
+    <link rel="shortcut icon" href="/img/favicon.ico">
+
     <title>
         
           First - Eugene 研究所
@@ -23,19 +22,11 @@
     <!-- Bootstrap Core CSS -->
     <link rel="stylesheet" href="/css/bootstrap.min.css">
 
-    <!-- Custom CSS --> 
-    <link rel="stylesheet" href="/css/beantech.min.css">
-    
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="/css/hux-blog.min.css">
+
     <!-- Pygments Highlight CSS -->
     <link rel="stylesheet" href="/css/highlight.css">
-
-    <link rel="stylesheet" href="/css/widget.css">
-
-    <link rel="stylesheet" href="/css/rocket.css">
-
-    <link rel="stylesheet" href="/css/signature.css">
-
-    <link rel="stylesheet" href="/css/toc.css">
 
     <!-- Custom Fonts -->
     <!-- <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet" type="text/css"> -->
@@ -64,46 +55,7 @@
 
 <!-- hack iOS CSS :active style -->
 <body ontouchstart="">
-	<!-- Modified by Yu-Hsuan Yen -->
-<!-- Post Header -->
-<style type="text/css">
-    header.intro-header{
-        
-            background-image: url('undefined')
-            /*post*/
-        
-    }
-    
-</style>
 
-<header class="intro-header">
-    <!-- Signature -->
-    <div id="signature">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
-                
-                    <div class="post-heading">
-                        <div class="tags">
-                            
-                        </div>
-                        <h1>First</h1>
-                        <h2 class="subheading"></h2>
-                        <span class="meta">
-                            Posted by eugene lee on
-                            2018-11-12
-                        </span>
-                    </div>
-                
-
-
-                </div>
-            </div>
-        </div>
-    </div>
-</header>
-
-	
     <!-- Navigation -->
 <nav class="navbar navbar-default navbar-custom navbar-fixed-top">
     <div class="container-fluid">
@@ -145,14 +97,14 @@
 
                         
                         <li>
-                            <a href="/archive/">Archives</a>
+                            <a href="/tags/">Tags</a>
                         </li>
                         
                     
 
                         
                         <li>
-                            <a href="/tags/">Tags</a>
+                            <a href="/archive/">Archives</a>
                         </li>
                         
                     
@@ -195,14 +147,43 @@
 
 
     <!-- Main Content -->
-    <!-- Modify by Yu-Hsuan Yen -->
+    
+<!-- Image to hack wechat -->
+<!-- <img src="http://yoursite-url/img/icon_wechat.png" width="0" height="0"> -->
+<!-- <img src="{{ site.baseurl }}/{% if page.header-img %}{{ page.header-img }}{% else %}{{ site.header-img }}{% endif %}" width="0" height="0"> -->
+
+<!-- Post Header -->
+<style type="text/css">
+    header.intro-header{
+        background-image: url('/img/header_img/home-bg-2-dark.png')
+    }
+</style>
+<header class="intro-header">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+                <div class="post-heading">
+                    <div class="tags">
+                        
+                    </div>
+                    <h1>First</h1>
+                    <h2 class="subheading"></h2>
+                    <span class="meta">
+                        Posted by eugene lee on
+                        2018-11-12
+                    </span>
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
 
 <!-- Post Content -->
 <article>
     <div class="container">
         <div class="row">
 
-            <!-- Post Container -->
+    <!-- Post Container -->
             <div class="
                 col-lg-8 col-lg-offset-2
                 col-md-10 col-md-offset-1
@@ -211,41 +192,36 @@
                 <p><strong>文件</strong>：<a href="https://share.weiyun.com/5tTx2G0" title="https://share.weiyun.com/5tTx2G0" target="_blank" rel="noopener">https://share.weiyun.com/5tTx2G0</a></p>
 <p><strong>密码</strong>：身份证前六位</p>
 
-                
 
                 <hr>
-                <!-- Pager -->
+
+                
+
                 <ul class="pager">
                     
                     
                         <li class="next">
-                            <a href="/2018/11/08/电子乐歌名后缀科普/" data-toggle="tooltip" data-placement="top" title="电子乐歌名后缀科普">Next Post &rarr;</a>
+                            <a href="/2018/11/08/edm_song_name_suffix/" data-toggle="tooltip" data-placement="top" title="电子乐歌名后缀科普">Next Post &rarr;</a>
                         </li>
                     
                 </ul>
 
-                <!-- duoshuo Share start -->
                 
-                <!-- 多说 Share end-->
 
-                <!-- 多说评论框 start -->
                 
-                <!-- 多说评论框 end -->
+                <!-- disqus 评论框 start -->
+                <div class="comment">
+                    <div id="disqus_thread" class="disqus-thread"></div>
+                </div>
+                <!-- disqus 评论框 end -->
+                
 
-                <!-- disqus comment start -->
-                
-                    <div class="comment">
-                        <div id="disqus_thread" class="disqus-thread"></div>
-                    </div>
-                
-                <!-- disqus comment end -->
             </div>
-            
-            <!-- Tabe of Content -->
-            <!-- Table of Contents -->
+    <!-- Side Catalog Container -->
+        
 
-                
-            <!-- Sidebar Container -->
+    <!-- Sidebar Container -->
+
             <div class="
                 col-lg-8 col-lg-offset-2
                 col-md-10 col-md-offset-1
@@ -269,13 +245,14 @@
                 <ul class="list-inline">
 
                     
-                        <li><a href="http://beantech.org" target="_blank">Bean Tech</a></li>
+                        <li><a href="http://kaijun.github.io/hexo-theme-huxblog/" target="_blank">Kaijun&#39;s Blog</a></li>
                     
                         <li><a href="http://huangxuan.me" target="_blank">Hux Blog</a></li>
                     
                 </ul>
                 
             </div>
+
         </div>
     </div>
 </article>
@@ -283,7 +260,7 @@
 
 
 
-<!-- disqus embedded js code start (one page only need to embed once) -->
+<!-- disqus 公共JS代码 start (一个网页只需插入一次) -->
 <script type="text/javascript">
     /* * * CONFIGURATION VARIABLES * * */
     var disqus_shortname = "your-disqus-ID";
@@ -296,7 +273,7 @@
         (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
     })();
 </script>
-<!-- disqus embedded js code start end -->
+<!-- disqus 公共JS代码 end -->
 
 
 
@@ -316,9 +293,9 @@
 <script>
     async("https://cdn.bootcss.com/anchor-js/1.1.1/anchor.min.js",function(){
         anchors.options = {
-          visible: 'hover',
-          placement: 'left',
-          icon: 'ℬ'
+          visible: 'always',
+          placement: 'right',
+          icon: '#'
         };
         anchors.add().remove('.intro-header h1').remove('.subheading').remove('.sidebar-container h5');
     })
@@ -351,15 +328,6 @@
                 
 
                 
-                    <li>
-                        <a target="_blank" href="https://www.facebook.com/liyuzhen">
-                            <span class="fa-stack fa-lg">
-                                <i class="fa fa-circle fa-stack-2x"></i>
-                                <i class="fa fa-facebook fa-stack-1x fa-inverse"></i>
-                            </span>
-                        </a>
-                    </li>
-                
 
                 
                     <li>
@@ -373,26 +341,17 @@
                 
 
                 
-                    <li>
-                        <a target="_blank" href="https://www.linkedin.com/in/liyuzhen">
-                            <span class="fa-stack fa-lg">
-                                <i class="fa fa-circle fa-stack-2x"></i>
-                                <i class="fa fa-linkedin fa-stack-1x fa-inverse"></i>
-                            </span>
-                        </a>
-                    </li>
-                
 
                 </ul>
                 <p class="copyright text-muted">
-                    Copyright &copy; eugene lee 2018 
+                    Copyright &copy; Eugene 研究所 2018 
                     <br>
                     Theme by <a href="http://huangxuan.me">Hux</a> 
                     <span style="display: inline-block; margin: 0 5px;">
                         <i class="fa fa-heart"></i>
                     </span> 
-                    re-Ported by <a href="http://beantech.org">BeanTech</a> | 
-                    <iframe style="margin-left: 2px; margin-bottom:-5px;" frameborder="0" scrolling="0" width="91px" height="20px" src="https://ghbtns.com/github-btn.html?user=YenYuHsuan&repo=hexo-theme-beantech&type=star&count=true">
+                    Ported by <a href="http://blog.kaijun.rocks">Kaijun</a> | 
+                    <iframe style="margin-left: 2px; margin-bottom:-5px;" frameborder="0" scrolling="0" width="91px" height="20px" src="https://ghbtns.com/github-btn.html?user=kaijun&repo=hexo-theme-huxblog&type=star&count=true">
                     </iframe>
                 </p>
             </div>
@@ -488,13 +447,12 @@
 <!-- Baidu Tongji -->
 
 
+<!-- Side Catalog -->
 
 
 
 
-	<a id="rocket" href="#top" class=""></a>
-	<script type="text/javascript" src="/js/totop.js?v=1.0.0" async=""></script>
-    <script type="text/javascript" src="/js/toc.js?v=1.0.0" async=""></script>
+
 <!-- Image to hack wechat -->
 <img src="http://yoursite-url/img/icon_wechat.png" width="0" height="0" />
 <!-- Migrate from head to bottom, no longer block render and still work -->
