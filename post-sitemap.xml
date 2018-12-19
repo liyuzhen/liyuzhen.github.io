@@ -7,6 +7,14 @@
     </url>
 
     <url>
+        <loc>http://yoursite-url/2018/12/19/forth/</loc>
+        <lastmod>2018-12-19T15:53:44.001Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
         <loc>http://yoursite-url/2018/11/06/first_blog/</loc>
         <lastmod>2018-11-24T16:01:41.865Z</lastmod>
         <changefreq>weekly</changefreq>
